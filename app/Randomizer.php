@@ -844,12 +844,6 @@ class Randomizer implements RandomizerContract
 		"lumberjacks are okay",
         ])));
 	  
-	  $world->setCredit('grove', Arr::first(fy_shuffle([
-            "ocarina boy plays again",
-		"flute boy plays again",
-		"the hyrule anthem",
-        ])));
-	  
 	  $world->setCredit('witch', Arr::first(fy_shuffle([
             "mushroom soup",
 		"mushroom stew",
